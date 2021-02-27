@@ -3,6 +3,7 @@
 import os
 import sys
 
+# executes various Django commands such as running the local web server or creating a new app
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'library_project.settings')
